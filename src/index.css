@@ -1,0 +1,82 @@
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 60px;
+  /* border-radius: 50px; */
+  /* border: 10px solid #ada645; */
+  /* background-color: rgba(193, 197, 241, 0.8); */
+  /* background-image: url("https://305plasticsurgery.com/wp-content/uploads/2023/02/Blog305_Post-Op-Instructions_image-2.jpg");
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: center; */
+  color: rgb(14, 5, 5);
+  
+}
+.container:hover{
+  box-shadow: 0px 0px 15px rgb(51, 51, 51);
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(187, 191, 230, 0.8);
+  background-image: url("https://305plasticsurgery.com/wp-content/uploads/2023/02/Blog305_Post-Op-Instructions_image-2.jpg");
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.title {
+  color: #000000;
+  font-size:30px;
+  font-weight:bolder;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 2px;
+  border: 2px solid #fcfbfb60;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fcfbfb55;
+  /* background: transparent; */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 130px; /* Space between buttons */
+}
+
+.button {
+  padding: 10px 30px;
+  background-color:#333;
+  color: #ece1e1;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.clearButton {
+  padding: 10px 30px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 35px;
+  color: black;
+}
